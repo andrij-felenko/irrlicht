@@ -2,12 +2,9 @@ cmake_minimum_required(VERSION 3.12)
 
 set(IRRLICHTMT_REVISION 15)
 
-project(Irrlicht
-	VERSION 1.9.0.${IRRLICHTMT_REVISION}
-	LANGUAGES CXX
-)
+project(Irrlicht)
 
-message(STATUS "*** Building IrrlichtMt ${PROJECT_VERSION} ***")
+message(STATUS "*** Building IrrlichtMt ***")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
